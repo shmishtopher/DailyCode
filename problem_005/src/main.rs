@@ -15,7 +15,7 @@
 //! def cons(a, b):
 //!    return lambda f : f(a, b)
 //! ```
-//! Implement car and cdr.
+//! Implement `car` and `cdr`.
 
 
 fn cons(a: i32, b: i32) -> impl Fn(&Fn(i32, i32) -> i32) -> i32 {
