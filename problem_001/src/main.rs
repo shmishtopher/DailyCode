@@ -39,5 +39,5 @@ fn example_2() {
 
 #[test]
 fn example_3() {
-  assert!(two_sum(&vec![2, 7, 1, 8, 2], 13) == false);
+  assert!(two_sum(&[2, 7, 1, 8, 2], 13) == false);
 }
