@@ -37,15 +37,15 @@ fn partial_product(list: &[i32]) -> Vec<i32> {
 
 #[test]
 fn example_1() {
-  assert!(partial_product(&vec![1, 2, 3, 4, 5]) == vec![120, 60, 40, 30, 24]);
+  assert!(partial_product(&[1, 2, 3, 4, 5]) == vec![120, 60, 40, 30, 24]);
 }
 
 #[test]
 fn example_2() {
-  assert!(partial_product(&vec![3, 2, 1]) == vec![2, 3, 6]);
+  assert!(partial_product(&[3, 2, 1]) == vec![2, 3, 6]);
 }
 
 #[test]
 fn example_3() {
-  assert!(partial_product(&vec![0, 1, 2]) == vec![2, 0, 0]);
+  assert!(partial_product(&[0, 1, 2]) == vec![2, 0, 0]);
 }
