@@ -29,12 +29,12 @@ fn two_sum(list: &[i32], k: i32) -> bool {
 
 #[test]
 fn example_1() {
-  assert!(two_sum(&vec![10, 15, 3, 7], 17) == true);
+  assert!(two_sum(&[10, 15, 3, 7], 17) == true);
 }
 
 #[test]
 fn example_2() {
-  assert!(two_sum(&vec![3, 1, 4, 1, 5, 9], 6) == true);
+  assert!(two_sum(&[3, 1, 4, 1, 5, 9], 6) == true);
 }
 
 #[test]
